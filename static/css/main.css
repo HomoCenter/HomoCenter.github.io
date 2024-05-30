@@ -18,7 +18,7 @@ body {
 	backdrop-filter: saturate(180%) blur(20px);
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 	.hm-video {
 		position: relative !important;
 		top: auto;
@@ -26,4 +26,4 @@ body {
 		right: auto;
 		border-radius: 1rem !important;
 	}
-}
+} */
