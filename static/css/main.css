@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'GolosTextWebVF';
+	src: 
+		url('/static/fonts/golos-text/Golos-Text_VF.woff2') format('woff2'),
+		url('/static/fonts/golos-text/Golos-Text_VF.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*,
+body {
+    font-family: 'GolosTextWebVF';
+}
+
+.bg-blured {
+	--bs-bg-opacity: .85;
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+}
+
+@media (min-width: 768px) {
+	.hm-video {
+		position: relative !important;
+		top: auto;
+		left: auto;
+		right: auto;
+		border-radius: 1rem !important;
+	}
+}
