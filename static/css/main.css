@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'GolosTextWebVF';
 	src: 
-		url('/static/fonts/golos-text/Golos-Text_VF.woff2') format('woff2'),
-		url('/static/fonts/golos-text/Golos-Text_VF.woff') format('woff');
+		url('/static/fonts/golos-text/golos-text_vf.woff2') format('woff2'),
+		url('/static/fonts/golos-text/golos-text_vfF.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -18,12 +18,21 @@ body {
 	backdrop-filter: saturate(180%) blur(20px);
 }
 
-/* @media (min-width: 768px) {
+.hm-video {
+	width: 100vw;
+	margin: -1.5rem;
+}
+
+article img {
+	width: 100%;
+	border-radius: 1rem;
+
+}
+
+@media (min-width: 768px) {
 	.hm-video {
-		position: relative !important;
-		top: auto;
-		left: auto;
-		right: auto;
+		width: 100%;
+		margin: 0;
 		border-radius: 1rem !important;
 	}
-} */
+}

@@ -2,7 +2,7 @@
 var countDownDates = [
     new Date("May 23, 2024 08:56:00").getTime(),
     new Date("May 30, 2024 08:56:00").getTime(),
-    new Date("May 30, 2024 08:56:00").getTime(),
+    new Date("June 30, 2024 08:56:00").getTime(),
     new Date("May 23, 2025 08:56:00").getTime(),
     new Date("May 10, 2024 08:56:00").getTime(),
 ]
