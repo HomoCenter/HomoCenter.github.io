@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://homo.center/sitemap.xml
